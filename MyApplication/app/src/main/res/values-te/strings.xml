@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">వాతావరణ సమాచారం</string>
+    <string name="password">పాస్వర్డ్</string>
+    <string name="username">యూజర్ పేరు</string>
+    <string name="sign_up">చేరడం</string>
+    <string name="sign_in">సైన్ ఇన్ చేయండి</string>
+    <string name="sign_out">సైన్ ఔట్ చేయండి</string>
+</resources>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">मौसम रिपोर्टिंग</string>
+    <string name="password">पारण शब्द</string>
+    <string name="username">उपयोगकर्ता नाम</string>
+    <string name="sign_up">साइन अप करें</string>
+    <string name="sign_in">दाखिल करना</string>
+    <string name="sign_out">साइन आउट</string>
+</resources>

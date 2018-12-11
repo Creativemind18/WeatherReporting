@@ -1,0 +1,43 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="DarkTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="colorPrimary"> @color/darkPrimary </item>
+        <item name="colorPrimaryDark"> @color/darkPrimaryDark</item>
+        <item name="colorAccent"> @color/darkAccent </item>
+    </style>
+    
+    <style name="textView" parent="Widget.AppCompat.AutoCompleteTextView">
+        <item name="android:textColor">@color/darkPrimary</item>
+        <item name="android:textSize">35dp</item>
+        <item name="android:textStyle"> bold </item>
+        <item name="android:paddingRight">20dp</item>
+        <item name="android:backgroundTint">@android:color/transparent</item>
+    </style>
+    <style name="editBox" parent="Widget.AppCompat.EditText">
+        <item name="android:textColor">@android:color/darker_gray </item>
+        <item name="android:textColorHint">@color/darkPrimary </item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:backgroundTint">@color/darkPrimary</item>
+        <item name="android:colorControlActivated">@color/darkPrimary</item>
+        <item name="android:colorControlNormal">@color/darkPrimary</item>
+        <item name="android:colorActivatedHighlight">@color/darkPrimary</item>
+        <item name="android:colorFocusedHighlight">@color/darkPrimary</item>
+        <item name="colorControlHighlight">@color/darkPrimary</item>
+    </style>
+    <style name="buttonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/button_background</item>
+        <item name="android:layout_margin">10dp</item>
+    </style>
+    <style name="signButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/signup_button_background</item>
+        <item name="android:layout_margin">10dp</item>
+    </style>
+    </resources>
